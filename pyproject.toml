@@ -1,0 +1,16 @@
+[tool.pyright]
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportAssertAlwaysTrue = "warning"
+reportUnnecessaryIsInstance = "warning"
+pythonVersion = "3.8"
+typeCheckingMode = "basic"
+strictParameterNoneValue = false
+include = [
+    "cogs",
+    "utils",
+]
+exclude = [
+    "**/__pycache__",
+    "build",
+    "dist"
+]

@@ -1,0 +1,2 @@
+aiohttp==3.7.4
+discord.py @ git+https://github.com/Rapptz/discord.py@903e2e64e9182b8d3330ef565af7bb46ff9f04da
