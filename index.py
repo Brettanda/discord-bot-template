@@ -24,8 +24,6 @@ log = logging.getLogger(__name__)
 
 
 class AutoShardedBot(commands.AutoShardedBot):
-    """Friday is a discord bot that is designed to be a flexible and easy to use bot."""
-
     user: discord.ClientUser
     uptime: datetime.datetime
 
